@@ -1,36 +1,115 @@
-# SMA200 trend filter on 3× leveraged equity ETFs (SPXL, TQQQ) — v4
+# Market Index Enhancement Strategy
 
-[简体中文](README_zh.md) · [Paper (PDF)](paper/SMA200_Leveraged_ETF_Research_v4.pdf) · [Word](paper/SMA200_Leveraged_ETF_Research_v4.docx) · [Referee response](REVIEWER_RESPONSE.md) · [Reproduce](REPRODUCE_V4.md) · [Limitations](LIMITATIONS.md)
+### SMA200 Trend Following & Dynamic Leverage | SPY / QQQ Benchmarks
 
-**Status:** exploratory, reproducible research. Not preregistered and not investment advice.
+[Research Paper (PDF)](paper/SMA200_Leveraged_ETF_Research_v4.pdf) · [Reproduction Guide](REPRODUCE_V4.md) · [Methodological Limitations](LIMITATIONS.md) · [中文说明](README_zh.md)
 
-**Rule.** SPY signal → SPXL and QQQ signal → TQQQ. Buy 20% per day while the signal closes at least 4% above its SMA200 (up to 100%); sell everything after a close more than 3% below the SMA200. Signals are taken at the close and filled at the next open, at 10 bp per fill. Idle cash earns a lagged T-bill rate.
+## Overview
 
-**Data.** One vendor (Yahoo via yfinance; market prices with total-return adjustment) for all four ETFs, through 2026-08-06. The data are validated against an NYSE calendar and reconciled to issuer data.
+This project investigates a **systematic U.S. equity index enhancement strategy** targeting higher long-term returns than passive investments in the **S&P 500 (SPY)** and **Nasdaq-100 (QQQ)**. It combines a 200-day simple moving average (SMA200) trend filter with staged allocations to **SPXL** and **TQQQ**, two 3× daily-reset leveraged ETFs.
 
-## Main finding (real ETFs, 2010-02-11 to 2026-08-06)
+Two strategies are evaluated separately:
 
-| | SMA rule | 3× hold | 1× hold (SPY/QQQ) | 1× SMA | Matched weight (ex ante) | Vol target 30% |
-|---|---:|---:|---:|---:|---:|---:|
-| SPXL CAGR / Max DD | 22.2% / −53.4% | 31.1% / −76.9% | 14.8% / −33.7% | 10.1% / −20.6% | 24.8% / −62.7% | 20.6% / −48.6% |
-| SPXL Calmar / Sharpe | 0.416 / 0.700 | 0.405 / 0.760 | 0.438 / 0.804 | 0.491 / 0.737 | 0.395 / 0.739 | 0.423 / 0.702 |
-| TQQQ CAGR / Max DD | 30.2% / −62.1% | 43.3% / −81.7% | 19.7% / −35.1% | 13.4% / −25.2% | 33.6% / −74.0% | 26.3% / −45.1% |
-| TQQQ Calmar / Sharpe | 0.487 / 0.771 | 0.530 / 0.873 | 0.560 / 0.899 | 0.532 / 0.779 | 0.455 / 0.829 | 0.583 / 0.835 |
+- **S&P 500 enhancement:** SPY generates trend signals; SPXL implements leveraged exposure.
+- **Nasdaq-100 enhancement:** QQQ generates trend signals; TQQQ implements leveraged exposure.
 
-* **No statistically significant evidence of timing value.** In a daily path bootstrap that re-runs every rule with identical definitions (1,000 paths), no Sharpe or Calmar difference against SPY/QQQ, the ex-ante matched mix or the vol target is significant (centred two-sided p ≥ 0.35). The drawdown gain over 3× hold is not significant either (p = 0.09–0.33).
-* **Multiple testing.** Reality Check / SPA over 45 configurations, volatility-matched: p ≥ 0.77.
-* **Walk-forward.** Annual re-selection of parameters (5-year train, 1-year test) does not help SPXL.
-* **Versus plain SPY/QQQ.** The rule earns 7–11 pp a year more, with 20–27 pp deeper drawdowns and lower Sharpe and Calmar ratios.
-* **Hypothetical 1999–2026 history** (synthetic before inception): the SPXL rule dominates, because it was in cash for most of 2000–02 and 2007–09. For TQQQ, the vol target is better. In leave-one-crisis-out re-simulations, no favourable result survives removing all large crises together with their recoveries.
+The objective is to examine whether trend-based dynamic leverage improves long-run capital growth, **and whether any improvement represents genuine market-timing value rather than simply taking more risk**.
 
-![Frontier](figures/v4/frontier.png)
+## Strategy Rules
 
-## Run
+| Component | Implementation |
+|---|---|
+| Trend indicator | 200-trading-day simple moving average of the unleveraged signal ETF (SPY or QQQ) |
+| Entry condition | Signal ETF closes at or above **104% of its SMA200** |
+| Position building | Buy **20% of portfolio capital per eligible trading day**, up to 100% exposure to SPXL or TQQQ |
+| Exit condition | Signal ETF closes **below 97% of its SMA200**; exit the leveraged ETF position entirely |
+| Execution | Signals observed at the close; orders filled at the **next trading day's open** |
+| Transaction costs | **10 basis points per fill** in the backtest |
+| Defensive allocation | Uninvested capital earns a **lagged Treasury-bill rate** in the research model |
+
+The entry/exit buffer creates hysteresis intended to avoid excessive turnover around SMA200. **This is not a capital-guaranteed or low-drawdown strategy:** 3× daily leverage can cause severe losses even with a trend filter.
+
+## Backtest: Enhancement vs. Buy-and-Hold
+
+**Primary evaluation window: February 11, 2010 – August 6, 2026 (real ETF data).** The enhancement strategies are compared with passive ownership of their respective **unleveraged** indexes, not just with 3× leveraged buy-and-hold.
+
+| Metric | SPY Buy & Hold | S&P 500 Enhancement (SPXL + SMA200) | QQQ Buy & Hold | Nasdaq-100 Enhancement (TQQQ + SMA200) |
+|:--|--:|--:|--:|--:|
+| **CAGR** | 14.8% | **22.2%** | 19.7% | **30.2%** |
+| **Maximum Drawdown** | **−33.7%** | −53.4% | **−35.1%** | −62.1% |
+| **Sharpe Ratio** | **0.804** | 0.700 | **0.899** | 0.771 |
+| **Calmar Ratio** | **0.438** | 0.416 | **0.560** | 0.487 |
+
+In this historical sample, the strategy generated approximately **+7.4 percentage points of annualized return over SPY** and **+10.5 percentage points over QQQ**. However, the gains required materially greater downside risk: maximum drawdowns were approximately **19.7 and 27.0 percentage points deeper**, respectively, and both strategies had **lower Sharpe and Calmar ratios** than passive index ownership.
+
+The distinction matters: **higher CAGR does not establish superior risk-adjusted performance**.
+
+![Historical equity curves](figures/v4/equity_real.png)
+
+![Drawdown comparison](figures/v4/drawdown_real.png)
+
+## Research Framework
+
+The study tests whether the trend filter adds value beyond leveraged exposure using multiple benchmarks and robustness checks:
+
+- **3× buy-and-hold:** SPXL and TQQQ held continuously to isolate the effect of the trend filter.
+- **1× buy-and-hold:** SPY and QQQ as the investable, unleveraged index baselines.
+- **1× trend filter:** The same timing rule applied without leverage.
+- **Ex-ante exposure-matched portfolio:** A benchmark using historical, rather than future, information about the strategy's exposure.
+- **30% volatility target:** A non-timing alternative that adjusts leverage using trailing realized volatility.
+- **Walk-forward validation:** Five-year training windows followed by one-year out-of-sample tests.
+- **Stationary bootstrap:** Path-based resampling of strategy outcomes and risk differences.
+- **Multiple-testing control:** White's Reality Check and Hansen's SPA test across 45 rule configurations.
+- **Stress and mechanism analysis:** Crisis-exclusion path simulations, trading-cost sensitivity, synthetic-history stress tests, and risk attribution.
+
+### Main Finding
+
+**The study does not find statistically significant evidence that SMA200 adds market-timing alpha after accounting for leverage, exposure, volatility, and strategy selection.** Although the filter reduced realized drawdowns relative to continuously holding the 3× ETFs in the real-ETF period, its return enhancement over SPY/QQQ was accompanied by considerably greater risk. Trend filtering is best understood here as a potential defense against *prolonged* bear markets—not as a proven source of superior risk-adjusted returns.
+
+An extended **1999–2026** experiment includes **synthetic leveraged ETF returns before the funds existed**. These results are explicitly **hypothetical** and must not be interpreted as historically executable performance.
+
+## Reproducing the Research
+
+The replication archive includes source-market data snapshots, analytical scripts, tests, tables, and a research manuscript. To reproduce the results from the repository root:
 
 ```bash
-pip install -r requirements.txt     # Python 3.13; pandoc + xelatex for the PDF
-# data/raw/{SPY,SPXL,QQQ,TQQQ}.csv are in the replication archive, or run: python scripts/fetch_yahoo.py
-./run_all.sh                        # 46 tests → analyses → tables → paper → verify 682 values
+python -m pip install -r requirements.txt
+python -m pytest -q
+python scripts/v4_run.py
+python scripts/v4_tables.py
+python scripts/verify_results.py
 ```
 
-Older versions are kept in `paper/archive/` and `docs/archive/`.
+The full research-paper build can be run with:
+
+```bash
+./run_all.sh
+```
+
+**Environment:** Python 3.13 and the dependency versions in `requirements.txt`. PDF generation additionally requires Pandoc and XeLaTeX. See [`REPRODUCE_V4.md`](REPRODUCE_V4.md) for exact data provenance, seeds, hashes, and output descriptions. Note that vendor-adjusted historical prices can be restated, so fresh downloads may not reproduce the archived data hashes exactly.
+
+## Repository Guide
+
+```text
+├── README.md                   # Project overview and benchmark comparison
+├── README_zh.md                # Chinese project overview
+├── paper/                      # Research paper, tables, and build scripts
+├── scripts/                    # Strategy engine, statistics, audits, reproduction
+├── data/raw/                   # Archived SPY, SPXL, QQQ, TQQQ market data
+├── data/v4_results/            # Research outputs and run manifest
+├── figures/v4/                # Equity curves, drawdowns, frontiers, robustness charts
+├── tests/                     # Automated tests
+├── REPRODUCE_V4.md             # Full reproduction procedure
+└── LIMITATIONS.md              # Research limitations and interpretation
+```
+
+## Limitations & Disclaimer
+
+- Results are **historical backtests**, not live or audited brokerage performance.
+- Leveraged ETFs target **3× daily returns**, not 3× compounded long-horizon index returns; volatility drag and tracking effects matter.
+- The rules were developed and examined using historical information; the research is **not preregistered** and remains exposed to researcher-selection bias.
+- Cash-rate assumptions, transaction costs, fund expenses, market frictions, and data adjustments can affect results.
+- **No robust market-timing alpha is established** by the evidence presented here.
+- This project is for educational and quantitative research purposes only and does **not** constitute investment advice.
+
+*Research version: v4.1 · Historical data through August 6, 2026.*
