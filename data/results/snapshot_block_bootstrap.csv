@@ -1,0 +1,3 @@
+Ticker,MonthlyObservations,BootstrapReplicates,BlockMonths,Seed,AvgAnnualLogExcessReturnPct,CI95LowerPct,CI95UpperPct,DescriptiveFractionAboveZero,Interpretation
+SPXL,201,5000,12,20261112,-5.818507462761634,-13.734417918210779,3.132432842557771,0.0924,Not corrected for ex-post parameter selection or market nonstationarity
+TQQQ,201,5000,12,20261112,-9.842388059272048,-21.661552229364176,5.1151791097002235,0.0862,Not corrected for ex-post parameter selection or market nonstationarity

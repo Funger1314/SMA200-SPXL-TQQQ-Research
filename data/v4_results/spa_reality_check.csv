@@ -1,0 +1,17 @@
+ETF,Benchmark,Loss,Configs,Reps,MeanBlock,BestConfig,BestAnnualDiff,BaselineAnnualDiff,p_RealityCheck,p_SPA_c
+SPXL,1x hold,raw return,45,2000,63,175/+4%/-5%,0.122957,0.113956,0.078500,0.058500
+SPXL,1x hold,volatility-matched,45,2000,63,150/+4%/-3%,-0.017555,-0.025618,0.962000,1.000000
+SPXL,Vol target 30%,raw return,45,2000,63,175/+4%/-5%,0.037071,0.028070,0.617500,0.538000
+SPXL,Vol target 30%,volatility-matched,45,2000,63,150/+4%/-3%,0.012413,-0.002581,0.851500,0.851500
+SPXL,Matched weight (ex ante),raw return,45,2000,63,175/+4%/-5%,-0.016963,-0.025965,0.920000,1.000000
+SPXL,Matched weight (ex ante),volatility-matched,45,2000,63,150/+4%/-3%,0.003552,-0.014145,0.829500,0.829500
+SPXL,3x hold,raw return,45,2000,63,175/+4%/-5%,-0.128341,-0.137342,0.999000,1.000000
+SPXL,3x hold,volatility-matched,45,2000,63,150/+4%/-3%,-0.000596,-0.024708,0.852500,1.000000
+TQQQ,1x hold,raw return,45,2000,63,250/+2%/-5%,0.215326,0.174844,0.010000,0.010500
+TQQQ,1x hold,volatility-matched,45,2000,63,175/+4%/-1%,-0.020238,-0.034868,0.941500,1.000000
+TQQQ,Vol target 30%,raw return,45,2000,63,250/+2%/-5%,0.129564,0.089082,0.078000,0.076000
+TQQQ,Vol target 30%,volatility-matched,45,2000,63,175/+4%/-1%,-0.002576,-0.025580,0.850000,1.000000
+TQQQ,Matched weight (ex ante),raw return,45,2000,63,250/+2%/-5%,0.019670,-0.020812,0.695000,0.690500
+TQQQ,Matched weight (ex ante),volatility-matched,45,2000,63,175/+4%/-1%,0.005237,-0.027298,0.775000,0.774500
+TQQQ,3x hold,raw return,45,2000,63,250/+2%/-5%,-0.133352,-0.173834,0.998000,1.000000
+TQQQ,3x hold,volatility-matched,45,2000,63,175/+4%/-1%,-0.014680,-0.057994,0.845500,1.000000

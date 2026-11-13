@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+.DS_Store
+# Do not redistribute third-party price archives by default.
+data/raw/*.csv
+# Rebuilt files (final CSV snapshots in data/results are committed intentionally)
+data/raw/IBKR_*.packed
+data/derived/ibkr_tail_*.csv

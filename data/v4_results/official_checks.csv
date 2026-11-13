@@ -1,0 +1,12 @@
+ETF,Item,Official,Yahoo / this study,Result
+SPXL,Inception / first trading day,2008-11-05 (Direxion),2008-11-05,match
+SPXL,Market close 2025-02-27,$163.55 market close; NAV $163.27 (Direxion),$163.55,"Yahoo = market close, not NAV"
+SPXL,Distribution ex 2024-03-19,$0.39478 (Direxion),$0.39500 implied by Adj Close,diff $+0.00022
+SPXL,Distribution ex 2024-06-25,$0.33671 (Direxion),$0.33702 implied by Adj Close,diff $+0.00031
+SPXL,Distribution ex 2024-09-24,$0.19251 (Direxion),$0.19296 implied by Adj Close,diff $+0.00045
+SPXL,Distribution ex 2024-12-23,$0.32070 (Direxion),$0.32100 implied by Adj Close,diff $+0.00030
+SPXL,Large distribution 2009-11-20,not on current issuer page,"Close -12.4%, Adj Close -0.84% (SPY -0.36%)",price-only data would book a -12% loss
+TQQQ,Fund inception,2010-02-09 (ProShares),-,-
+TQQQ,First exchange trading day,"2010-02-11: Nasdaq release ""began trading today"" (GlobeNewswire, 11 Feb 2010); BATS circular IC 2010-012: UTP from 12 Feb",2010-02-11,match; Yahoo first bar = Nasdaq listing day
+TQQQ,Conflicting issuer statement,"ProShares release 10 Feb 2025, fn. 5: performance measured ""from first day of trading on Feb 10, 2010"", based on NAV",-,"treated as NAV/performance start date, not the exchange listing; primary listing source preferred"
+TQQQ,Since-inception total return,"41.02% p.a. NAV, 41.03% market, to 2026-10-31 (ProShares)",sample ends 2026-08-06,not comparable; reconciliation pending

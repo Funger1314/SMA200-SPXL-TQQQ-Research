@@ -1,0 +1,5 @@
+Ticker,FirstDate,LastDate,Rows,SHA256,Source
+SPY,1993-01-29,2026-08-06,8437,fbe334492366497e7ee453434f227110d1e38c14e36a1b213a5662b82b7d32dd,"Yahoo Finance via yfinance (auto_adjust=False), obtained from github.com/hjyssg/tqqq_simulation"
+SPXL,2008-11-05,2026-08-06,4464,3a360f215c5e418bdc170e5f87a5e1ca6c095d0a69c805005c442ba1ad62ac6f,"Yahoo Finance via yfinance (auto_adjust=False), obtained from github.com/hjyssg/tqqq_simulation"
+QQQ,1999-03-10,2026-08-06,6895,63f612bf338cd6362a1089c7a02a867de0d8461f11d1a28219bf4b99f638187f,"Yahoo Finance via yfinance (auto_adjust=False), obtained from github.com/hjyssg/tqqq_simulation"
+TQQQ,2010-02-11,2026-08-06,4146,8097962b66c314faaed9b4b5b48652175e8fdcd65da3e0527d5871c92568cde7,"Yahoo Finance via yfinance (auto_adjust=False), obtained from github.com/hjyssg/tqqq_simulation"

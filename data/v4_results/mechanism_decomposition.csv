@@ -1,0 +1,25 @@
+Window,ETF,Comparison,LogGrowthDiff,MeanReturnPart,VarianceDragPart,HigherOrderResidual
+real,SPXL,Total: SMA vs 3x hold,-0.070268,-0.137342,0.066152,0.000923
+real,SPXL,Exposure effect: matched (ex post) vs 3x hold,-0.029663,-0.083496,0.052477,0.001356
+real,SPXL,Timing effect: SMA vs matched (ex post),-0.040605,-0.053846,0.013674,-0.000433
+real,SPXL,SMA vs vol target 30%,0.013488,0.028070,-0.014004,-0.000577
+real,SPXL,SMA (3x) vs 1x hold,0.062973,0.113956,-0.049930,-0.001053
+real,SPXL,Leverage given SMA: SMA 3x vs SMA 1x,0.104340,0.162728,-0.057315,-0.001073
+full,SPXL,Total: SMA vs 3x hold,0.090918,-0.013828,0.104260,0.000486
+full,SPXL,Exposure effect: matched (ex post) vs 3x hold,0.013698,-0.075552,0.088543,0.000707
+full,SPXL,Timing effect: SMA vs matched (ex post),0.077220,0.061724,0.015717,-0.000221
+full,SPXL,SMA vs vol target 30%,0.063771,0.075278,-0.011139,-0.000368
+full,SPXL,SMA (3x) vs 1x hold,0.078513,0.121372,-0.042110,-0.000749
+full,SPXL,Leverage given SMA: SMA 3x vs SMA 1x,0.074989,0.129637,-0.053918,-0.000730
+real,TQQQ,Total: SMA vs 3x hold,-0.095578,-0.173834,0.078002,0.000254
+real,TQQQ,Exposure effect: matched (ex post) vs 3x hold,-0.041721,-0.116667,0.073660,0.001286
+real,TQQQ,Timing effect: SMA vs matched (ex post),-0.053857,-0.057167,0.004342,-0.001032
+real,TQQQ,SMA vs vol target 30%,0.030918,0.089082,-0.056690,-0.001474
+real,TQQQ,SMA (3x) vs 1x hold,0.084797,0.174844,-0.088208,-0.001840
+real,TQQQ,Leverage given SMA: SMA 3x vs SMA 1x,0.138627,0.237570,-0.097099,-0.001845
+full,TQQQ,Total: SMA vs 3x hold,0.156507,-0.038670,0.195872,-0.000696
+full,TQQQ,Exposure effect: matched (ex post) vs 3x hold,0.077877,-0.102295,0.179687,0.000485
+full,TQQQ,Timing effect: SMA vs matched (ex post),0.078630,0.063625,0.016186,-0.001181
+full,TQQQ,SMA vs vol target 30%,0.001990,0.076503,-0.073203,-0.001311
+full,TQQQ,SMA (3x) vs 1x hold,0.048710,0.138498,-0.088116,-0.001672
+full,TQQQ,Leverage given SMA: SMA 3x vs SMA 1x,0.044870,0.156453,-0.110018,-0.001565

@@ -1,0 +1,21 @@
+{
+  "end": "2026-08-06",
+  "seed": 20260806,
+  "path_bootstrap_reps": 1000,
+  "spa_reps": 2000,
+  "calibrated_spread": {
+    "SPXL": 0.006992867709879343,
+    "TQQQ": 0.007496782926975258
+  },
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "matplotlib": "3.11.2",
+  "runtime_sec": 205.6,
+  "data_sha256": {
+    "SPY": "fbe334492366497e7ee453434f227110d1e38c14e36a1b213a5662b82b7d32dd",
+    "SPXL": "3a360f215c5e418bdc170e5f87a5e1ca6c095d0a69c805005c442ba1ad62ac6f",
+    "QQQ": "63f612bf338cd6362a1089c7a02a867de0d8461f11d1a28219bf4b99f638187f",
+    "TQQQ": "8097962b66c314faaed9b4b5b48652175e8fdcd65da3e0527d5871c92568cde7"
+  }
+}

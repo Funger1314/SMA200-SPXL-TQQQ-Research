@@ -1,0 +1,217 @@
+Window,ETF,Excluded,ExclusionSpan,DaysKept,Rule,CAGR,MaxDrawdown,Calmar,Sharpe
+real,SPXL,none excluded,decline only,4146,SMA rule,0.222153,-0.534140,0.415908,0.699531
+real,SPXL,none excluded,decline only,4146,3x hold,0.311120,-0.768561,0.404809,0.760222
+real,SPXL,none excluded,decline only,4146,1x hold,0.147564,-0.337173,0.437651,0.803547
+real,SPXL,none excluded,decline only,4146,1x SMA,0.101061,-0.205597,0.491548,0.736861
+real,SPXL,none excluded,decline only,4146,Matched weight (ex ante),0.247601,-0.626995,0.394901,0.738995
+real,SPXL,none excluded,decline only,4146,Vol target 30%,0.205779,-0.486097,0.423330,0.702236
+real,SPXL,COVID crash,decline only,4122,SMA rule,0.266748,-0.488774,0.545749,0.814336
+real,SPXL,COVID crash,decline only,4122,3x hold,0.434777,-0.638003,0.681465,0.961945
+real,SPXL,COVID crash,decline only,4122,1x hold,0.177381,-0.244964,0.724111,1.003318
+real,SPXL,COVID crash,decline only,4122,1x SMA,0.113092,-0.177847,0.635896,0.852869
+real,SPXL,COVID crash,decline only,4122,Matched weight (ex ante),0.325881,-0.547923,0.594756,0.926852
+real,SPXL,COVID crash,decline only,4122,Vol target 30%,0.256081,-0.387085,0.661564,0.845622
+real,SPXL,COVID crash,decline + 252 days after trough,3870,SMA rule,0.240398,-0.488774,0.491839,0.762641
+real,SPXL,COVID crash,decline + 252 days after trough,3870,3x hold,0.329772,-0.638003,0.516882,0.816729
+real,SPXL,COVID crash,decline + 252 days after trough,3870,1x hold,0.146324,-0.244964,0.597328,0.859935
+real,SPXL,COVID crash,decline + 252 days after trough,3870,1x SMA,0.105074,-0.177847,0.590812,0.802582
+real,SPXL,COVID crash,decline + 252 days after trough,3870,Matched weight (ex ante),0.248900,-0.547923,0.454261,0.778080
+real,SPXL,COVID crash,decline + 252 days after trough,3870,Vol target 30%,0.233130,-0.387085,0.602272,0.779152
+real,SPXL,2022 bear,decline only,3950,SMA rule,0.270263,-0.534140,0.505978,0.802298
+real,SPXL,2022 bear,decline only,3950,3x hold,0.416273,-0.768561,0.541627,0.921431
+real,SPXL,2022 bear,decline only,3950,1x hold,0.175895,-0.337173,0.521676,0.965960
+real,SPXL,2022 bear,decline only,3950,1x SMA,0.115985,-0.205597,0.564137,0.840398
+real,SPXL,2022 bear,decline only,3950,Matched weight (ex ante),0.325603,-0.626995,0.519307,0.920414
+real,SPXL,2022 bear,decline only,3950,Vol target 30%,0.254643,-0.486097,0.523852,0.828290
+real,SPXL,2022 bear,decline + 252 days after trough,3698,SMA rule,0.284966,-0.534140,0.533505,0.836327
+real,SPXL,2022 bear,decline + 252 days after trough,3698,3x hold,0.408743,-0.768561,0.531829,0.914960
+real,SPXL,2022 bear,decline + 252 days after trough,3698,1x hold,0.172346,-0.337173,0.511150,0.960378
+real,SPXL,2022 bear,decline + 252 days after trough,3698,1x SMA,0.118994,-0.205597,0.578773,0.874926
+real,SPXL,2022 bear,decline + 252 days after trough,3698,Matched weight (ex ante),0.320433,-0.626995,0.511062,0.914061
+real,SPXL,2022 bear,decline + 252 days after trough,3698,Vol target 30%,0.255909,-0.486097,0.526456,0.834434
+real,SPXL,all listed excluded,decline only,3926,SMA rule,0.319282,-0.413144,0.772812,0.925955
+real,SPXL,all listed excluded,decline only,3926,3x hold,0.557571,-0.538099,1.036186,1.154958
+real,SPXL,all listed excluded,decline only,3926,1x hold,0.208174,-0.193489,1.075897,1.197170
+real,SPXL,all listed excluded,decline only,3926,1x SMA,0.128885,-0.152913,0.842865,0.965368
+real,SPXL,all listed excluded,decline only,3926,Matched weight (ex ante),0.413587,-0.442577,0.934498,1.140029
+real,SPXL,all listed excluded,decline only,3926,Vol target 30%,0.309971,-0.367771,0.842838,0.984329
+real,SPXL,all listed excluded,decline + 252 days after trough,3422,SMA rule,0.311974,-0.413144,0.755122,0.927272
+real,SPXL,all listed excluded,decline + 252 days after trough,3422,3x hold,0.439744,-0.538099,0.817218,1.021628
+real,SPXL,all listed excluded,decline + 252 days after trough,3422,1x hold,0.172933,-0.193489,0.893760,1.066952
+real,SPXL,all listed excluded,decline + 252 days after trough,3422,1x SMA,0.125073,-0.152913,0.817938,0.969126
+real,SPXL,all listed excluded,decline + 252 days after trough,3422,Matched weight (ex ante),0.328052,-0.442577,0.741231,1.004900
+real,SPXL,all listed excluded,decline + 252 days after trough,3422,Vol target 30%,0.292413,-0.367771,0.795096,0.934983
+full,SPXL,none excluded,decline only,6695,SMA rule,0.172576,-0.534140,0.323092,0.576523
+full,SPXL,none excluded,decline only,6695,3x hold,0.070670,-0.982455,0.071932,0.373793
+full,SPXL,none excluded,decline only,6695,1x hold,0.084035,-0.551895,0.152267,0.412333
+full,SPXL,none excluded,decline only,6695,1x SMA,0.087862,-0.205597,0.427353,0.611791
+full,SPXL,none excluded,decline only,6695,Matched weight (ex ante),0.077279,-0.925478,0.083502,0.337234
+full,SPXL,none excluded,decline only,6695,Vol target 30%,0.100135,-0.689062,0.145320,0.398929
+full,SPXL,Dot-com bear,decline only,6057,SMA rule,0.208841,-0.534140,0.390985,0.664368
+full,SPXL,Dot-com bear,decline only,6057,3x hold,0.201394,-0.955491,0.210776,0.578267
+full,SPXL,Dot-com bear,decline only,6057,1x hold,0.122731,-0.551895,0.222382,0.615895
+full,SPXL,Dot-com bear,decline only,6057,1x SMA,0.098388,-0.205597,0.478548,0.701235
+full,SPXL,Dot-com bear,decline only,6057,Matched weight (ex ante),0.137967,-0.896715,0.153858,0.482079
+full,SPXL,Dot-com bear,decline only,6057,Vol target 30%,0.164053,-0.622302,0.263622,0.584869
+full,SPXL,Dot-com bear,decline + 252 days after trough,5805,SMA rule,0.199671,-0.534140,0.373817,0.640198
+full,SPXL,Dot-com bear,decline + 252 days after trough,5805,3x hold,0.172227,-0.955491,0.180249,0.533867
+full,SPXL,Dot-com bear,decline + 252 days after trough,5805,1x hold,0.113524,-0.551895,0.205699,0.571806
+full,SPXL,Dot-com bear,decline + 252 days after trough,5805,1x SMA,0.096098,-0.205597,0.467413,0.677365
+full,SPXL,Dot-com bear,decline + 252 days after trough,5805,Matched weight (ex ante),0.133331,-0.896715,0.148688,0.469744
+full,SPXL,Dot-com bear,decline + 252 days after trough,5805,Vol target 30%,0.154280,-0.622302,0.247918,0.555838
+full,SPXL,Global financial crisis,decline only,6339,SMA rule,0.194993,-0.534140,0.365060,0.625055
+full,SPXL,Global financial crisis,decline only,6339,3x hold,0.214560,-0.926693,0.231533,0.596567
+full,SPXL,Global financial crisis,decline only,6339,1x hold,0.123851,-0.475159,0.260651,0.637704
+full,SPXL,Global financial crisis,decline only,6339,1x SMA,0.095723,-0.205597,0.465586,0.661360
+full,SPXL,Global financial crisis,decline only,6339,Matched weight (ex ante),0.182878,-0.680801,0.268622,0.595503
+full,SPXL,Global financial crisis,decline only,6339,Vol target 30%,0.146342,-0.689062,0.212378,0.530366
+full,SPXL,Global financial crisis,decline + 252 days after trough,6087,SMA rule,0.174883,-0.534140,0.327411,0.577005
+full,SPXL,Global financial crisis,decline + 252 days after trough,6087,3x hold,0.151309,-0.926693,0.163278,0.493750
+full,SPXL,Global financial crisis,decline + 252 days after trough,6087,1x hold,0.104239,-0.475159,0.219378,0.538064
+full,SPXL,Global financial crisis,decline + 252 days after trough,6087,1x SMA,0.090191,-0.205597,0.438678,0.616330
+full,SPXL,Global financial crisis,decline + 252 days after trough,6087,Matched weight (ex ante),0.141347,-0.680801,0.207619,0.495179
+full,SPXL,Global financial crisis,decline + 252 days after trough,6087,Vol target 30%,0.125683,-0.689062,0.182397,0.469037
+full,SPXL,COVID crash,decline only,6671,SMA rule,0.198654,-0.488774,0.406432,0.645851
+full,SPXL,COVID crash,decline only,6671,3x hold,0.131162,-0.982455,0.133505,0.464648
+full,SPXL,COVID crash,decline only,6671,1x hold,0.101128,-0.551895,0.183239,0.501969
+full,SPXL,COVID crash,decline only,6671,1x SMA,0.095145,-0.177847,0.534981,0.681913
+full,SPXL,COVID crash,decline only,6671,Matched weight (ex ante),0.120069,-0.925478,0.129737,0.437173
+full,SPXL,COVID crash,decline only,6671,Vol target 30%,0.129994,-0.689062,0.188654,0.487363
+full,SPXL,COVID crash,decline + 252 days after trough,6419,SMA rule,0.180994,-0.488774,0.370302,0.604755
+full,SPXL,COVID crash,decline + 252 days after trough,6419,3x hold,0.070462,-0.982455,0.071720,0.362334
+full,SPXL,COVID crash,decline + 252 days after trough,6419,1x hold,0.080679,-0.551895,0.146186,0.400795
+full,SPXL,COVID crash,decline + 252 days after trough,6419,1x SMA,0.089686,-0.177847,0.504288,0.641468
+full,SPXL,COVID crash,decline + 252 days after trough,6419,Matched weight (ex ante),0.075394,-0.925478,0.081465,0.327191
+full,SPXL,COVID crash,decline + 252 days after trough,6419,Vol target 30%,0.112068,-0.689062,0.162639,0.432514
+full,SPXL,2022 bear,decline only,6499,SMA rule,0.198920,-0.534140,0.372411,0.638054
+full,SPXL,2022 bear,decline only,6499,3x hold,0.115234,-0.982455,0.117291,0.443159
+full,SPXL,2022 bear,decline only,6499,1x hold,0.098335,-0.551895,0.178178,0.481704
+full,SPXL,2022 bear,decline only,6499,1x SMA,0.096402,-0.205597,0.468888,0.673844
+full,SPXL,2022 bear,decline only,6499,Matched weight (ex ante),0.113013,-0.925478,0.122113,0.420386
+full,SPXL,2022 bear,decline only,6499,Vol target 30%,0.123985,-0.689062,0.179933,0.466656
+full,SPXL,2022 bear,decline + 252 days after trough,6247,SMA rule,0.204304,-0.534140,0.382491,0.652943
+full,SPXL,2022 bear,decline + 252 days after trough,6247,3x hold,0.101055,-0.982455,0.102859,0.423692
+full,SPXL,2022 bear,decline + 252 days after trough,6247,1x hold,0.093358,-0.551895,0.169159,0.462477
+full,SPXL,2022 bear,decline + 252 days after trough,6247,1x SMA,0.097367,-0.205597,0.473582,0.688935
+full,SPXL,2022 bear,decline + 252 days after trough,6247,Matched weight (ex ante),0.102780,-0.925478,0.111056,0.399445
+full,SPXL,2022 bear,decline + 252 days after trough,6247,Vol target 30%,0.119576,-0.689062,0.173534,0.457196
+full,SPXL,all listed excluded,decline only,5481,SMA rule,0.307190,-0.413144,0.743543,0.881599
+full,SPXL,all listed excluded,decline only,5481,3x hold,0.578810,-0.538099,1.075658,1.169582
+full,SPXL,all listed excluded,decline only,5481,1x hold,0.216221,-0.193489,1.117483,1.211399
+full,SPXL,all listed excluded,decline only,5481,1x SMA,0.128144,-0.152913,0.838024,0.921375
+full,SPXL,all listed excluded,decline only,5481,Matched weight (ex ante),0.389932,-0.434597,0.897226,1.127926
+full,SPXL,all listed excluded,decline only,5481,Vol target 30%,0.301414,-0.367336,0.820540,0.961234
+full,SPXL,all listed excluded,decline + 252 days after trough,4473,SMA rule,0.270076,-0.413144,0.653709,0.806571
+full,SPXL,all listed excluded,decline + 252 days after trough,4473,3x hold,0.381968,-0.538099,0.709847,0.930233
+full,SPXL,all listed excluded,decline + 252 days after trough,4473,1x hold,0.159700,-0.193489,0.825373,0.979784
+full,SPXL,all listed excluded,decline + 252 days after trough,4473,1x SMA,0.117915,-0.152913,0.771128,0.852936
+full,SPXL,all listed excluded,decline + 252 days after trough,4473,Matched weight (ex ante),0.282797,-0.434597,0.650711,0.913525
+full,SPXL,all listed excluded,decline + 252 days after trough,4473,Vol target 30%,0.257306,-0.367336,0.700464,0.833701
+real,TQQQ,none excluded,decline only,4146,SMA rule,0.302388,-0.620871,0.487038,0.770596
+real,TQQQ,none excluded,decline only,4146,3x hold,0.433010,-0.816598,0.530260,0.872789
+real,TQQQ,none excluded,decline only,4146,1x hold,0.196502,-0.351187,0.559538,0.898811
+real,TQQQ,none excluded,decline only,4146,1x SMA,0.133797,-0.251751,0.531467,0.779047
+real,TQQQ,none excluded,decline only,4146,Matched weight (ex ante),0.336183,-0.739695,0.454489,0.829358
+real,TQQQ,none excluded,decline only,4146,Vol target 30%,0.262737,-0.450481,0.583236,0.835195
+real,TQQQ,COVID crash,decline only,4122,SMA rule,0.368729,-0.538392,0.684871,0.891692
+real,TQQQ,COVID crash,decline only,4122,3x hold,0.542471,-0.816598,0.664305,1.006359
+real,TQQQ,COVID crash,decline only,4122,1x hold,0.221252,-0.351187,0.630011,1.031592
+real,TQQQ,COVID crash,decline only,4122,1x SMA,0.150528,-0.233086,0.645806,0.900134
+real,TQQQ,COVID crash,decline only,4122,Matched weight (ex ante),0.403635,-0.739695,0.545678,0.950013
+real,TQQQ,COVID crash,decline only,4122,Vol target 30%,0.304688,-0.450481,0.676360,0.948625
+real,TQQQ,COVID crash,decline + 252 days after trough,3870,SMA rule,0.306106,-0.538392,0.568557,0.803073
+real,TQQQ,COVID crash,decline + 252 days after trough,3870,3x hold,0.427874,-0.816598,0.523971,0.883796
+real,TQQQ,COVID crash,decline + 252 days after trough,3870,1x hold,0.187838,-0.351187,0.534866,0.910510
+real,TQQQ,COVID crash,decline + 252 days after trough,3870,1x SMA,0.130709,-0.233086,0.560775,0.811804
+real,TQQQ,COVID crash,decline + 252 days after trough,3870,Matched weight (ex ante),0.319083,-0.739695,0.431371,0.823528
+real,TQQQ,COVID crash,decline + 252 days after trough,3870,Vol target 30%,0.289352,-0.450481,0.642318,0.905967
+real,TQQQ,2022 bear,decline only,3950,SMA rule,0.355929,-0.620871,0.573275,0.849423
+real,TQQQ,2022 bear,decline only,3950,3x hold,0.607877,-0.699221,0.869364,1.078177
+real,TQQQ,2022 bear,decline only,3950,1x hold,0.239215,-0.285594,0.837608,1.101046
+real,TQQQ,2022 bear,decline only,3950,1x SMA,0.150479,-0.251751,0.597731,0.857382
+real,TQQQ,2022 bear,decline only,3950,Matched weight (ex ante),0.466362,-0.551893,0.845023,1.063128
+real,TQQQ,2022 bear,decline only,3950,Vol target 30%,0.321489,-0.415485,0.773769,0.975370
+real,TQQQ,2022 bear,decline + 252 days after trough,3698,SMA rule,0.345983,-0.620871,0.557254,0.836593
+real,TQQQ,2022 bear,decline + 252 days after trough,3698,3x hold,0.578696,-0.699221,0.827630,1.055298
+real,TQQQ,2022 bear,decline + 252 days after trough,3698,1x hold,0.228949,-0.285594,0.801660,1.077431
+real,TQQQ,2022 bear,decline + 252 days after trough,3698,1x SMA,0.146251,-0.251751,0.580933,0.843695
+real,TQQQ,2022 bear,decline + 252 days after trough,3698,Matched weight (ex ante),0.447752,-0.551893,0.811302,1.042702
+real,TQQQ,2022 bear,decline + 252 days after trough,3698,Vol target 30%,0.311927,-0.415485,0.750755,0.954533
+real,TQQQ,all listed excluded,decline only,3926,SMA rule,0.428889,-0.538392,0.796611,0.977320
+real,TQQQ,all listed excluded,decline only,3926,3x hold,0.738290,-0.580828,1.271101,1.237313
+real,TQQQ,all listed excluded,decline only,3926,1x hold,0.266413,-0.227966,1.168652,1.259778
+real,TQQQ,all listed excluded,decline only,3926,1x SMA,0.168415,-0.233086,0.722545,0.985279
+real,TQQQ,all listed excluded,decline only,3926,Matched weight (ex ante),0.545055,-0.512456,1.063613,1.209076
+real,TQQQ,all listed excluded,decline only,3926,Vol target 30%,0.368002,-0.340328,1.081316,1.098846
+real,TQQQ,all listed excluded,decline + 252 days after trough,3422,SMA rule,0.353921,-0.538392,0.657366,0.882987
+real,TQQQ,all listed excluded,decline + 252 days after trough,3422,3x hold,0.584626,-0.580828,1.006539,1.108393
+real,TQQQ,all listed excluded,decline + 252 days after trough,3422,1x hold,0.221523,-0.227966,0.971734,1.131368
+real,TQQQ,all listed excluded,decline + 252 days after trough,3422,1x SMA,0.143727,-0.233086,0.616628,0.890027
+real,TQQQ,all listed excluded,decline + 252 days after trough,3422,Matched weight (ex ante),0.436074,-0.512456,0.850950,1.081152
+real,TQQQ,all listed excluded,decline + 252 days after trough,3422,Vol target 30%,0.347389,-0.340328,1.020749,1.045916
+full,TQQQ,none excluded,decline only,6695,SMA rule,0.142762,-0.902278,0.158224,0.480464
+full,TQQQ,none excluded,decline only,6695,3x hold,-0.022795,-0.999794,-0.022800,0.347495
+full,TQQQ,none excluded,decline only,6695,1x hold,0.088432,-0.829639,0.106591,0.376160
+full,TQQQ,none excluded,decline only,6695,1x SMA,0.092620,-0.444134,0.208541,0.495223
+full,TQQQ,none excluded,decline only,6695,Matched weight (ex ante),0.076939,-0.982896,0.078277,0.360736
+full,TQQQ,none excluded,decline only,6695,Vol target 30%,0.140491,-0.668951,0.210017,0.510653
+full,TQQQ,Dot-com bear,decline only,6057,SMA rule,0.264798,-0.620871,0.426495,0.693827
+full,TQQQ,Dot-com bear,decline only,6057,3x hold,0.338304,-0.946762,0.357328,0.745298
+full,TQQQ,Dot-com bear,decline only,6057,1x hold,0.181369,-0.534040,0.339618,0.775817
+full,TQQQ,Dot-com bear,decline only,6057,1x SMA,0.126915,-0.251751,0.504130,0.708767
+full,TQQQ,Dot-com bear,decline only,6057,Matched weight (ex ante),0.239589,-0.836525,0.286410,0.661974
+full,TQQQ,Dot-com bear,decline only,6057,Vol target 30%,0.210309,-0.558805,0.376356,0.701269
+full,TQQQ,Dot-com bear,decline + 252 days after trough,5805,SMA rule,0.241758,-0.620871,0.389385,0.656095
+full,TQQQ,Dot-com bear,decline + 252 days after trough,5805,3x hold,0.278802,-0.946762,0.294480,0.677182
+full,TQQQ,Dot-com bear,decline + 252 days after trough,5805,1x hold,0.161988,-0.534040,0.303326,0.708389
+full,TQQQ,Dot-com bear,decline + 252 days after trough,5805,1x SMA,0.119870,-0.251751,0.476145,0.671006
+full,TQQQ,Dot-com bear,decline + 252 days after trough,5805,Matched weight (ex ante),0.231139,-0.836525,0.276308,0.643245
+full,TQQQ,Dot-com bear,decline + 252 days after trough,5805,Vol target 30%,0.193463,-0.558805,0.346209,0.655166
+full,TQQQ,Global financial crisis,decline only,6339,SMA rule,0.175997,-0.902278,0.195058,0.537309
+full,TQQQ,Global financial crisis,decline only,6339,3x hold,0.092747,-0.999529,0.092791,0.478295
+full,TQQQ,Global financial crisis,decline only,6339,1x hold,0.125398,-0.829639,0.151148,0.506893
+full,TQQQ,Global financial crisis,decline only,6339,1x SMA,0.104334,-0.444134,0.234917,0.552218
+full,TQQQ,Global financial crisis,decline only,6339,Matched weight (ex ante),0.159081,-0.960292,0.165659,0.506860
+full,TQQQ,Global financial crisis,decline only,6339,Vol target 30%,0.184696,-0.668951,0.276098,0.630418
+full,TQQQ,Global financial crisis,decline + 252 days after trough,6087,SMA rule,0.146948,-0.902278,0.162863,0.486407
+full,TQQQ,Global financial crisis,decline + 252 days after trough,6087,3x hold,0.024719,-0.999529,0.024730,0.397070
+full,TQQQ,Global financial crisis,decline + 252 days after trough,6087,1x hold,0.103027,-0.829639,0.124182,0.425897
+full,TQQQ,Global financial crisis,decline + 252 days after trough,6087,1x SMA,0.095826,-0.444134,0.215758,0.500957
+full,TQQQ,Global financial crisis,decline + 252 days after trough,6087,Matched weight (ex ante),0.118935,-0.960292,0.123853,0.433629
+full,TQQQ,Global financial crisis,decline + 252 days after trough,6087,Vol target 30%,0.161713,-0.668951,0.241741,0.565089
+full,TQQQ,COVID crash,decline only,6671,SMA rule,0.177834,-0.902278,0.197095,0.541277
+full,TQQQ,COVID crash,decline only,6671,3x hold,0.021269,-0.999794,0.021274,0.396250
+full,TQQQ,COVID crash,decline only,6671,1x hold,0.101913,-0.829639,0.122841,0.424173
+full,TQQQ,COVID crash,decline only,6671,1x SMA,0.102408,-0.444134,0.230579,0.556481
+full,TQQQ,COVID crash,decline only,6671,Matched weight (ex ante),0.112212,-0.982896,0.114165,0.422701
+full,TQQQ,COVID crash,decline only,6671,Vol target 30%,0.164649,-0.668951,0.246131,0.580402
+full,TQQQ,COVID crash,decline + 252 days after trough,6419,SMA rule,0.138311,-0.902278,0.153291,0.469300
+full,TQQQ,COVID crash,decline + 252 days after trough,6419,3x hold,-0.040827,-0.999794,-0.040836,0.314934
+full,TQQQ,COVID crash,decline + 252 days after trough,6419,1x hold,0.079271,-0.829639,0.095549,0.342993
+full,TQQQ,COVID crash,decline + 252 days after trough,6419,1x SMA,0.089091,-0.444134,0.200595,0.484889
+full,TQQQ,COVID crash,decline + 252 days after trough,6419,Matched weight (ex ante),0.062648,-0.982896,0.063738,0.326812
+full,TQQQ,COVID crash,decline + 252 days after trough,6419,Vol target 30%,0.150426,-0.668951,0.224868,0.538319
+full,TQQQ,2022 bear,decline only,6499,SMA rule,0.166481,-0.902278,0.184512,0.521097
+full,TQQQ,2022 bear,decline only,6499,3x hold,0.036008,-0.999794,0.036015,0.417409
+full,TQQQ,2022 bear,decline only,6499,1x hold,0.108715,-0.829639,0.131039,0.445480
+full,TQQQ,2022 bear,decline only,6499,1x SMA,0.101134,-0.444134,0.227710,0.535901
+full,TQQQ,2022 bear,decline only,6499,Matched weight (ex ante),0.132075,-0.982896,0.134373,0.458496
+full,TQQQ,2022 bear,decline only,6499,Vol target 30%,0.168630,-0.668951,0.252082,0.586751
+full,TQQQ,2022 bear,decline + 252 days after trough,6247,SMA rule,0.154379,-0.902278,0.171099,0.502836
+full,TQQQ,2022 bear,decline + 252 days after trough,6247,3x hold,0.006825,-0.999794,0.006826,0.385719
+full,TQQQ,2022 bear,decline + 252 days after trough,6247,1x hold,0.098327,-0.829639,0.118518,0.413490
+full,TQQQ,2022 bear,decline + 252 days after trough,6247,1x SMA,0.096795,-0.444134,0.217941,0.517352
+full,TQQQ,2022 bear,decline + 252 days after trough,6247,Matched weight (ex ante),0.111288,-0.982896,0.113225,0.423360
+full,TQQQ,2022 bear,decline + 252 days after trough,6247,Vol target 30%,0.157188,-0.668951,0.234977,0.558433
+full,TQQQ,all listed excluded,decline only,5481,SMA rule,0.404781,-0.551910,0.733419,0.908547
+full,TQQQ,all listed excluded,decline only,5481,3x hold,0.780093,-0.580828,1.343071,1.236220
+full,TQQQ,all listed excluded,decline only,5481,1x hold,0.285037,-0.227966,1.250348,1.264838
+full,TQQQ,all listed excluded,decline only,5481,1x SMA,0.167802,-0.233086,0.719917,0.924196
+full,TQQQ,all listed excluded,decline only,5481,Matched weight (ex ante),0.511348,-0.504345,1.013885,1.185603
+full,TQQQ,all listed excluded,decline only,5481,Vol target 30%,0.343817,-0.358322,0.959519,1.044168
+full,TQQQ,all listed excluded,decline + 252 days after trough,4473,SMA rule,0.290161,-0.551910,0.525739,0.739044
+full,TQQQ,all listed excluded,decline + 252 days after trough,4473,3x hold,0.500212,-0.580828,0.861205,0.978409
+full,TQQQ,all listed excluded,decline + 252 days after trough,4473,1x hold,0.207126,-0.227966,0.908582,1.008939
+full,TQQQ,all listed excluded,decline + 252 days after trough,4473,1x SMA,0.133396,-0.233086,0.572303,0.754343
+full,TQQQ,all listed excluded,decline + 252 days after trough,4473,Matched weight (ex ante),0.383375,-0.504345,0.760144,0.981890
+full,TQQQ,all listed excluded,decline + 252 days after trough,4473,Vol target 30%,0.281734,-0.358322,0.786260,0.879869

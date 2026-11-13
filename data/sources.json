@@ -1,0 +1,140 @@
+{
+  "_README": "CURRENT data for v3/v4: see the \"v4\" block (four Yahoo/yfinance files, SHA-256). The \"sources\" and \"tail_source\" blocks describe the HISTORICAL v1/v2 pipeline (mixed GitHub archives + IBKR tail) and are NOT used by v4.",
+  "as_of": "2026-11-12",
+  "data_statement": "Public archived OHLC files supplemented by IBKR daily bars as of 2026-11-12. Monthly audit snapshots ship in data/results; primary historical OHLC must be downloaded from upstream owners. Raw SPY/SPXL prices are not identically dividend-adjusted to adjusted QQQ/TQQQ: read LIMITATIONS.md.",
+  "sources": {
+    "SPY": {
+      "repo": "Setooooo/etf-insight",
+      "path": "data/raw/SPY.csv",
+      "git_blob_sha1": "52c647e871bd687c664db8ca8db0c23a75e6b8b2",
+      "last_archive_date": "2026-07-23",
+      "format": "Yahoo Finance unadjusted OHLC with Adj Close",
+      "branch": "master"
+    },
+    "SPXL": {
+      "repo": "xjcarter/data",
+      "path": "SPXL.csv",
+      "git_blob_sha1": "1290338825007efc5f5503d4a7ac821b0e1d8a6a",
+      "last_archive_date": "2022-11-18",
+      "format": "Yahoo Finance unadjusted OHLC with Adj Close",
+      "branch": "master"
+    },
+    "QQQ": {
+      "repo": "kienta1999/qqq-overnight-drift",
+      "path": "data/QQQ_daily_yf.csv",
+      "git_blob_sha1": "2579d3a0a8139f1b613c04b524f710f37dd77e63",
+      "last_archive_date": "2026-08-28",
+      "format": "yfinance auto-adjusted OHLC",
+      "branch": "main"
+    },
+    "TQQQ": {
+      "repo": "kienta1999/qqq-overnight-drift",
+      "path": "data/TQQQ_daily_yf.csv",
+      "git_blob_sha1": "5c94ddf54bcc090554530c87fcdc336051b00cff",
+      "last_archive_date": "2026-08-28",
+      "format": "yfinance auto-adjusted OHLC",
+      "branch": "main"
+    }
+  },
+  "tail_source": {
+    "provider": "Interactive Brokers historical OHLC daily API",
+    "window": "from source's last archive date to 2026-11-12",
+    "note": "The audit used IBKR daily opens/closes. Licensed IBKR tails are kept locally and excluded from the public GitHub ZIP; replicate the recent tail with yfinance, accepting possible revision differences. Month-end NAV derived from audited dataset is included."
+  },
+  "raw_data_license": "Source archives were not relicensed by this repository. Verify rights and upstream terms before redistributing full OHLC files. These data are fetched locally and are gitignored.",
+  "revision_v2": {
+    "status": "Revised code and monthly risk bootstrap validated. Corrected daily metrics PENDING source refresh",
+    "risk_free": {
+      "provider": "FRED",
+      "series": "DTB3",
+      "url": "https://fred.stlouisfed.org/series/DTB3",
+      "snapshot_replica": "0xenriconagata/perp-carry-economics/assets/DTB3.csv",
+      "git_blob_sha1": "e473e4a24beb3ef7fe6cad45a5871a57b6967a19",
+      "derived_months": "1998-12 through 2026-10 (last available quote per month)",
+      "timing": "At all sessions in calendar month m, use latest available quote at prior month-end m-1",
+      "negative_yield": "2015-09 month-end -0.01% retained explicitly"
+    },
+    "strict_overlap_anchor": {
+      "SPY": {
+        "date": "2026-07-23",
+        "close": 738.18
+      },
+      "SPXL": {
+        "date": "2022-11-18",
+        "close": 69.92
+      },
+      "QQQ": {
+        "date": "2026-08-28",
+        "close": 716.43
+      },
+      "TQQQ": {
+        "date": "2026-08-28",
+        "close": 71.85
+      }
+    },
+    "must_verify": "One bp source splice, common dividend-adjusted OHLC, external NAV total return for the funds"
+  },
+  "v3": {
+    "as_of": "2026-08-06",
+    "vendor": "Yahoo Finance daily bars exported by yfinance (auto_adjust=False), obtained from github.com/hjyssg/tqqq_simulation",
+    "files": {
+      "SPY": {
+        "path": "data/raw/SPY.csv",
+        "sha256": "fbe334492366497e7ee453434f227110d1e38c14e36a1b213a5662b82b7d32dd",
+        "first": "1993-01-29",
+        "last": "2026-08-06",
+        "rows": 8437
+      },
+      "SPXL": {
+        "path": "data/raw/SPXL.csv",
+        "sha256": "3a360f215c5e418bdc170e5f87a5e1ca6c095d0a69c805005c442ba1ad62ac6f",
+        "first": "2008-11-05",
+        "last": "2026-08-06",
+        "rows": 4464
+      },
+      "QQQ": {
+        "path": "data/raw/QQQ.csv",
+        "sha256": "63f612bf338cd6362a1089c7a02a867de0d8461f11d1a28219bf4b99f638187f",
+        "first": "1999-03-10",
+        "last": "2026-08-06",
+        "rows": 6895
+      },
+      "TQQQ": {
+        "path": "data/raw/TQQQ.csv",
+        "sha256": "8097962b66c314faaed9b4b5b48652175e8fdcd65da3e0527d5871c92568cde7",
+        "first": "2010-02-11",
+        "last": "2026-08-06",
+        "rows": 4146
+      }
+    },
+    "note": "v3 uses only these four files; the v1/v2 archive+tail sources below are retained for history and are not used by scripts/v3_run.py. Raw files are not redistributed."
+  },
+  "v4": {
+    "note": "Same four vendor files as v3 (hashes identical); provenance in data/v4_results/data_manifest.csv",
+    "files": {
+      "SPY": {
+        "sha256": "fbe334492366497e7ee453434f227110d1e38c14e36a1b213a5662b82b7d32dd",
+        "first": "1993-01-29",
+        "last": "2026-08-06"
+      },
+      "SPXL": {
+        "sha256": "3a360f215c5e418bdc170e5f87a5e1ca6c095d0a69c805005c442ba1ad62ac6f",
+        "first": "2008-11-05",
+        "last": "2026-08-06"
+      },
+      "QQQ": {
+        "sha256": "63f612bf338cd6362a1089c7a02a867de0d8461f11d1a28219bf4b99f638187f",
+        "first": "1999-03-10",
+        "last": "2026-08-06"
+      },
+      "TQQQ": {
+        "sha256": "8097962b66c314faaed9b4b5b48652175e8fdcd65da3e0527d5871c92568cde7",
+        "first": "2010-02-11",
+        "last": "2026-08-06"
+      }
+    },
+    "download_timestamp": "not recorded upstream; last bar 2026-08-06, so download >= 2026-08-06 close; files received by the author 2026-11-12. scripts/fetch_yahoo.py records the UTC timestamp on any re-download."
+  },
+  "sources_status": "historical (v1/v2)",
+  "tail_source_status": "historical (v1/v2)"
+}

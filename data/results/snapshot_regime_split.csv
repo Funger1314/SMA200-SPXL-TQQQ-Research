@@ -1,0 +1,7 @@
+LeveragedETF,StartYear,EndYear,CAGR_pct,MaxDD_pct,ContainsSynthetic
+SPXL,2010,2017,25.06,-42.3,False
+SPXL,2018,2026,17.03,-52.9,False
+SPXL,1999,2008,3.76,-41.7,True
+TQQQ,2010,2017,25.85,-53.8,False
+TQQQ,2018,2026,26.51,-62.1,False
+TQQQ,1999,2008,-12.23,-90.5,True

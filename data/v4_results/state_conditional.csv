@@ -1,0 +1,129 @@
+Window,ETF,Versus,Dimension,State,Days,AnnualisedMeanDiff,NeweyWest_t
+real,SPXL,Matched weight (ex ante),Trend,above SMA200,3483,0.073175,1.996580
+real,SPXL,Matched weight (ex ante),Trend,below SMA200,663,-0.538284,-1.676709
+real,SPXL,Matched weight (ex ante),Volatility,vol 15-25%,1042,-0.050200,-0.319974
+real,SPXL,Matched weight (ex ante),Volatility,vol < 15%,2718,0.039756,1.378130
+real,SPXL,Matched weight (ex ante),Volatility,vol > 25%,386,-0.408710,-0.983534
+real,SPXL,Matched weight (ex ante),Drawdown duration,21-120 d,1371,-0.151237,-0.983099
+real,SPXL,Matched weight (ex ante),Drawdown duration,<=20 d since 1y high,2357,0.090196,2.244527
+real,SPXL,Matched weight (ex ante),Drawdown duration,>120 d,418,-0.256605,-1.025685
+real,SPXL,Vol target 30%,Trend,above SMA200,3483,0.079597,2.553486
+real,SPXL,Vol target 30%,Trend,below SMA200,663,-0.242626,-1.261922
+real,SPXL,Vol target 30%,Volatility,vol 15-25%,1042,0.010150,0.082461
+real,SPXL,Vol target 30%,Volatility,vol < 15%,2718,0.055950,2.584753
+real,SPXL,Vol target 30%,Volatility,vol > 25%,386,-0.119876,-0.547583
+real,SPXL,Vol target 30%,Drawdown duration,21-120 d,1371,0.011197,0.108032
+real,SPXL,Vol target 30%,Drawdown duration,<=20 d since 1y high,2357,0.063961,2.198618
+real,SPXL,Vol target 30%,Drawdown duration,>120 d,418,-0.118971,-0.775238
+real,SPXL,1x hold,Trend,above SMA200,3483,0.189558,2.872364
+real,SPXL,1x hold,Trend,below SMA200,663,-0.279117,-1.673712
+real,SPXL,1x hold,Volatility,vol 15-25%,1042,0.147277,1.060506
+real,SPXL,1x hold,Volatility,vol < 15%,2718,0.159134,2.534267
+real,SPXL,1x hold,Volatility,vol > 25%,386,-0.287077,-1.331640
+real,SPXL,1x hold,Drawdown duration,21-120 d,1371,0.060431,0.459277
+real,SPXL,1x hold,Drawdown duration,<=20 d since 1y high,2357,0.168530,2.297449
+real,SPXL,1x hold,Drawdown duration,>120 d,418,-0.011723,-0.080219
+real,SPXL,3x hold,Trend,above SMA200,3483,-0.009177,-0.266850
+real,SPXL,3x hold,Trend,below SMA200,663,-0.798278,-1.886950
+real,SPXL,3x hold,Volatility,vol 15-25%,1042,-0.225300,-1.165379
+real,SPXL,3x hold,Volatility,vol < 15%,2718,-0.040872,-2.604296
+real,SPXL,3x hold,Volatility,vol > 25%,386,-0.557953,-0.968618
+real,SPXL,3x hold,Drawdown duration,21-120 d,1371,-0.320475,-1.723427
+real,SPXL,3x hold,Drawdown duration,<=20 d since 1y high,2357,0.034184,0.735380
+real,SPXL,3x hold,Drawdown duration,>120 d,418,-0.484266,-1.433100
+full,SPXL,Matched weight (ex ante),Trend,above SMA200,4968,0.082025,2.501382
+full,SPXL,Matched weight (ex ante),Trend,below SMA200,1727,0.031244,0.164330
+full,SPXL,Matched weight (ex ante),Volatility,vol 15-25%,2008,0.175731,1.683333
+full,SPXL,Matched weight (ex ante),Volatility,vol < 15%,3820,0.046537,1.508376
+full,SPXL,Matched weight (ex ante),Volatility,vol > 25%,867,-0.079789,-0.261251
+full,SPXL,Matched weight (ex ante),Drawdown duration,21-120 d,1963,-0.079571,-0.697200
+full,SPXL,Matched weight (ex ante),Drawdown duration,<=20 d since 1y high,3142,0.088937,2.336250
+full,SPXL,Matched weight (ex ante),Drawdown duration,>120 d,1590,0.212718,1.300362
+full,SPXL,Vol target 30%,Trend,above SMA200,4968,0.078546,2.616646
+full,SPXL,Vol target 30%,Trend,below SMA200,1727,0.065877,0.550880
+full,SPXL,Vol target 30%,Volatility,vol 15-25%,2008,0.190808,2.125529
+full,SPXL,Vol target 30%,Volatility,vol < 15%,3820,0.038545,1.673351
+full,SPXL,Vol target 30%,Volatility,vol > 25%,867,-0.030448,-0.194411
+full,SPXL,Vol target 30%,Drawdown duration,21-120 d,1963,0.028943,0.365902
+full,SPXL,Vol target 30%,Drawdown duration,<=20 d since 1y high,3142,0.053017,1.965056
+full,SPXL,Vol target 30%,Drawdown duration,>120 d,1590,0.176474,1.687238
+full,SPXL,1x hold,Trend,above SMA200,4968,0.148757,2.656015
+full,SPXL,1x hold,Trend,below SMA200,1727,0.043019,0.390126
+full,SPXL,1x hold,Volatility,vol 15-25%,2008,0.240123,2.526431
+full,SPXL,1x hold,Volatility,vol < 15%,3820,0.113562,2.177785
+full,SPXL,1x hold,Volatility,vol > 25%,867,-0.118400,-0.714776
+full,SPXL,1x hold,Drawdown duration,21-120 d,1963,0.079334,0.781823
+full,SPXL,1x hold,Drawdown duration,<=20 d since 1y high,3142,0.130512,2.056857
+full,SPXL,1x hold,Drawdown duration,>120 d,1590,0.155672,1.589535
+full,SPXL,3x hold,Trend,above SMA200,4968,0.012508,0.435592
+full,SPXL,3x hold,Trend,below SMA200,1727,-0.088052,-0.313565
+full,SPXL,3x hold,Volatility,vol 15-25%,2008,0.076590,0.525441
+full,SPXL,3x hold,Volatility,vol < 15%,3820,-0.009088,-0.354849
+full,SPXL,3x hold,Volatility,vol > 25%,867,-0.241061,-0.533376
+full,SPXL,3x hold,Drawdown duration,21-120 d,1963,-0.225713,-1.641894
+full,SPXL,3x hold,Drawdown duration,<=20 d since 1y high,3142,0.024454,0.700489
+full,SPXL,3x hold,Drawdown duration,>120 d,1590,0.173783,0.676278
+real,TQQQ,Matched weight (ex ante),Trend,above SMA200,3512,0.104500,2.416796
+real,TQQQ,Matched weight (ex ante),Trend,below SMA200,634,-0.700021,-1.826793
+real,TQQQ,Matched weight (ex ante),Volatility,vol 15-25%,1573,-0.087106,-0.836842
+real,TQQQ,Matched weight (ex ante),Volatility,vol < 15%,1798,0.094741,2.228385
+real,TQQQ,Matched weight (ex ante),Volatility,vol > 25%,775,-0.142112,-0.480282
+real,TQQQ,Matched weight (ex ante),Drawdown duration,21-120 d,1525,-0.155780,-0.959907
+real,TQQQ,Matched weight (ex ante),Drawdown duration,<=20 d since 1y high,2299,0.092256,2.367520
+real,TQQQ,Matched weight (ex ante),Drawdown duration,>120 d,322,-0.159450,-0.403494
+real,TQQQ,Vol target 30%,Trend,above SMA200,3512,0.180401,3.304428
+real,TQQQ,Vol target 30%,Trend,below SMA200,634,-0.416775,-1.975571
+real,TQQQ,Vol target 30%,Volatility,vol 15-25%,1573,0.082864,0.752620
+real,TQQQ,Vol target 30%,Volatility,vol < 15%,1798,0.085843,1.671383
+real,TQQQ,Vol target 30%,Volatility,vol > 25%,775,0.109216,0.574248
+real,TQQQ,Vol target 30%,Drawdown duration,21-120 d,1525,0.098361,0.838832
+real,TQQQ,Vol target 30%,Drawdown duration,<=20 d since 1y high,2299,0.089637,1.515266
+real,TQQQ,Vol target 30%,Drawdown duration,>120 d,322,0.041176,0.186329
+real,TQQQ,1x hold,Trend,above SMA200,3512,0.279591,3.375938
+real,TQQQ,1x hold,Trend,below SMA200,634,-0.399888,-1.935614
+real,TQQQ,1x hold,Volatility,vol 15-25%,1573,0.196422,1.327888
+real,TQQQ,1x hold,Volatility,vol < 15%,1798,0.223747,2.500623
+real,TQQQ,1x hold,Volatility,vol > 25%,775,0.022100,0.106679
+real,TQQQ,1x hold,Drawdown duration,21-120 d,1525,0.178318,1.252429
+real,TQQQ,1x hold,Drawdown duration,<=20 d since 1y high,2299,0.182511,1.826878
+real,TQQQ,1x hold,Drawdown duration,>120 d,322,0.114493,0.512160
+real,TQQQ,3x hold,Trend,above SMA200,3512,-0.014612,-0.410638
+real,TQQQ,3x hold,Trend,below SMA200,634,-1.031170,-2.157310
+real,TQQQ,3x hold,Volatility,vol 15-25%,1573,-0.292951,-2.351521
+real,TQQQ,3x hold,Volatility,vol < 15%,1798,-0.007474,-0.217889
+real,TQQQ,3x hold,Volatility,vol > 25%,775,-0.297847,-0.814321
+real,TQQQ,3x hold,Drawdown duration,21-120 d,1525,-0.407490,-2.115991
+real,TQQQ,3x hold,Drawdown duration,<=20 d since 1y high,2299,0.015481,0.535720
+real,TQQQ,3x hold,Drawdown duration,>120 d,322,-0.370341,-0.721850
+full,TQQQ,Matched weight (ex ante),Trend,above SMA200,4941,0.112479,2.462745
+full,TQQQ,Matched weight (ex ante),Trend,below SMA200,1754,-0.096087,-0.420746
+full,TQQQ,Matched weight (ex ante),Volatility,vol 15-25%,2433,0.033273,0.366340
+full,TQQQ,Matched weight (ex ante),Volatility,vol < 15%,2361,0.030689,0.672982
+full,TQQQ,Matched weight (ex ante),Volatility,vol > 25%,1901,0.122994,0.593577
+full,TQQQ,Matched weight (ex ante),Drawdown duration,21-120 d,2158,-0.204044,-1.471001
+full,TQQQ,Matched weight (ex ante),Drawdown duration,<=20 d since 1y high,2973,0.082533,1.737508
+full,TQQQ,Matched weight (ex ante),Drawdown duration,>120 d,1564,0.372236,1.834092
+full,TQQQ,Vol target 30%,Trend,above SMA200,4941,0.145891,2.349307
+full,TQQQ,Vol target 30%,Trend,below SMA200,1754,-0.118961,-1.017408
+full,TQQQ,Vol target 30%,Volatility,vol 15-25%,2433,0.105854,1.189888
+full,TQQQ,Vol target 30%,Volatility,vol < 15%,2361,0.042032,0.926895
+full,TQQQ,Vol target 30%,Volatility,vol > 25%,1901,0.081752,0.530559
+full,TQQQ,Vol target 30%,Drawdown duration,21-120 d,2158,-0.017890,-0.157283
+full,TQQQ,Vol target 30%,Drawdown duration,<=20 d since 1y high,2973,0.092152,1.261010
+full,TQQQ,Vol target 30%,Drawdown duration,>120 d,1564,0.177000,1.583931
+full,TQQQ,1x hold,Trend,above SMA200,4941,0.223280,2.898300
+full,TQQQ,1x hold,Trend,below SMA200,1754,-0.100527,-0.702877
+full,TQQQ,1x hold,Volatility,vol 15-25%,2433,0.198315,1.740024
+full,TQQQ,1x hold,Volatility,vol < 15%,2361,0.129750,1.627755
+full,TQQQ,1x hold,Volatility,vol > 25%,1901,0.072625,0.431406
+full,TQQQ,1x hold,Drawdown duration,21-120 d,2158,0.033582,0.256857
+full,TQQQ,1x hold,Drawdown duration,<=20 d since 1y high,2973,0.141122,1.451248
+full,TQQQ,1x hold,Drawdown duration,>120 d,1564,0.278054,1.942070
+full,TQQQ,3x hold,Trend,above SMA200,4941,0.024307,0.574868
+full,TQQQ,3x hold,Trend,below SMA200,1754,-0.216406,-0.542577
+full,TQQQ,3x hold,Volatility,vol 15-25%,2433,-0.201403,-1.891336
+full,TQQQ,3x hold,Volatility,vol < 15%,2361,-0.023174,-0.713220
+full,TQQQ,3x hold,Volatility,vol > 25%,1901,0.150052,0.427251
+full,TQQQ,3x hold,Drawdown duration,21-120 d,2158,-0.421890,-2.616384
+full,TQQQ,3x hold,Drawdown duration,<=20 d since 1y high,2973,0.010961,0.487664
+full,TQQQ,3x hold,Drawdown duration,>120 d,1564,0.395382,1.003114

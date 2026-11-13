@@ -1,0 +1,29 @@
+Window,ETF,Grouping,Group,Days,Contribution_pp_per_year
+real,SPXL,SMA state at t-1,fully invested,3276,2.108101
+real,SPXL,SMA state at t-1,out (cash),828,-5.453412
+real,SPXL,SMA state at t-1,partial,42,-0.715205
+real,SPXL,Crisis window,2022 bear,196,1.864769
+real,SPXL,Crisis window,COVID crash,24,2.584373
+real,SPXL,Crisis window,no crisis,3926,-8.509657
+full,SPXL,SMA state at t-1,fully invested,4718,2.695688
+full,SPXL,SMA state at t-1,out (cash),1912,5.210655
+full,SPXL,SMA state at t-1,partial,65,-0.184331
+full,SPXL,Crisis window,2022 bear,196,0.846436
+full,SPXL,Crisis window,COVID crash,24,1.235007
+full,SPXL,Crisis window,Dot-com bear,638,5.136698
+full,SPXL,Crisis window,Global financial crisis,356,6.636027
+full,SPXL,Crisis window,no crisis,5481,-6.132156
+real,TQQQ,SMA state at t-1,fully invested,3259,3.527559
+real,TQQQ,SMA state at t-1,out (cash),816,-7.493892
+real,TQQQ,SMA state at t-1,partial,71,-1.419381
+real,TQQQ,Crisis window,2022 bear,196,4.393076
+real,TQQQ,Crisis window,COVID crash,24,0.098066
+real,TQQQ,Crisis window,no crisis,3926,-9.876856
+full,TQQQ,SMA state at t-1,fully invested,4545,0.801754
+full,TQQQ,SMA state at t-1,out (cash),1978,7.608132
+full,TQQQ,SMA state at t-1,partial,172,-0.546913
+full,TQQQ,Crisis window,2022 bear,196,2.056878
+full,TQQQ,Crisis window,COVID crash,24,-0.212410
+full,TQQQ,Crisis window,Dot-com bear,638,8.959178
+full,TQQQ,Crisis window,Global financial crisis,356,4.633153
+full,TQQQ,Crisis window,no crisis,5481,-7.573827

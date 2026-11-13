@@ -1,0 +1,13 @@
+Ticker,RiskMetric,DifferenceStrategyMinusBuyHold,CI2_5,CI97_5,FractionPositive,DateGranularity,Bootstrap,N,Replicates,Seed
+SPXL,Sharpe0,-0.047001459619499864,-0.2756729362935487,0.18385108746116707,0.3036,month-end only,paired circular fixed block (12 months),201,5000,20261112
+SPXL,MaxDrawdownMonthly,0.2130397814514855,-0.06580278966414545,0.33766008107094403,0.9214,month-end only,paired circular fixed block (12 months),201,5000,20261112
+SPXL,CDaR10Monthly,0.15994924505550157,-0.1417794155829884,0.30278183442072254,0.7422,month-end only,paired circular fixed block (12 months),201,5000,20261112
+SPXL,CVaR5Monthly,0.05186454853152489,-0.00855003009176169,0.10862332942428779,0.9518,month-end only,paired circular fixed block (12 months),201,5000,20261112
+SPXL,UlcerMonthly,-0.023898584436639447,-0.1677978760908157,0.1061695635825665,0.4334,month-end only,paired circular fixed block (12 months),201,5000,20261112
+SPXL,AnnualLogGrowth,-0.05818507462761638,-0.13734417918210767,0.03132432842557764,0.0924,month-end only,paired circular fixed block (12 months),201,5000,20261112
+TQQQ,Sharpe0,-0.12117319156072659,-0.3750258529602219,0.18153786031000743,0.1828,month-end only,paired circular fixed block (12 months),201,5000,20261112
+TQQQ,MaxDrawdownMonthly,0.28869052657732164,-0.2149144172748897,0.3507915642385315,0.7122,month-end only,paired circular fixed block (12 months),201,5000,20261112
+TQQQ,CDaR10Monthly,0.18433372061812153,-0.27692973782371066,0.36085292106676853,0.5818,month-end only,paired circular fixed block (12 months),201,5000,20261112
+TQQQ,CVaR5Monthly,0.024875436192880684,-0.02899666996497047,0.07484268643812872,0.8082,month-end only,paired circular fixed block (12 months),201,5000,20261112
+TQQQ,UlcerMonthly,-0.026255120765257794,-0.21770448131528744,0.194377357303365,0.5366,month-end only,paired circular fixed block (12 months),201,5000,20261112
+TQQQ,AnnualLogGrowth,-0.09842388059272048,-0.2166155222936422,0.05115179109700195,0.0862,month-end only,paired circular fixed block (12 months),201,5000,20261112

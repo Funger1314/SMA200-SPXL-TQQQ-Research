@@ -1,0 +1,29 @@
+Test,Ticker,Setting,Period,Strategy,CAGR,MaxDrawdown,Sharpe
+one-way cost,SPXL,5 bp,real,trend,0.222782,-0.533679,0.700956
+one-way cost,SPXL,5 bp,real,hold,0.311160,-0.768561,0.760281
+one-way cost,SPXL,10 bp,real,trend,0.222153,-0.534140,0.699531
+one-way cost,SPXL,10 bp,real,hold,0.311120,-0.768561,0.760222
+one-way cost,SPXL,20 bp,real,trend,0.220897,-0.535060,0.696680
+one-way cost,SPXL,20 bp,real,hold,0.311041,-0.768561,0.760105
+one-way cost,SPXL,50 bp,real,trend,0.217138,-0.537808,0.688119
+one-way cost,SPXL,50 bp,real,hold,0.310803,-0.768561,0.759755
+synthetic financing spread,SPXL,s = 0,full,trend,0.175735,-0.534140,0.584247
+synthetic financing spread,SPXL,s = 0,full,hold,0.075683,-0.980209,0.381916
+synthetic financing spread,SPXL,s = 70 bp (calibrated),full,trend,0.172576,-0.534140,0.576523
+synthetic financing spread,SPXL,s = 70 bp (calibrated),full,hold,0.070670,-0.982455,0.373793
+synthetic financing spread,SPXL,s = 140 bp,full,trend,0.169426,-0.534140,0.568799
+synthetic financing spread,SPXL,s = 140 bp,full,hold,0.065681,-0.984447,0.365670
+one-way cost,TQQQ,5 bp,real,trend,0.303278,-0.620871,0.772052
+one-way cost,TQQQ,5 bp,real,hold,0.433053,-0.816598,0.872837
+one-way cost,TQQQ,10 bp,real,trend,0.302388,-0.620871,0.770596
+one-way cost,TQQQ,10 bp,real,hold,0.433010,-0.816598,0.872789
+one-way cost,TQQQ,20 bp,real,trend,0.300610,-0.620871,0.767682
+one-way cost,TQQQ,20 bp,real,hold,0.432923,-0.816598,0.872692
+one-way cost,TQQQ,50 bp,real,trend,0.295291,-0.620871,0.758937
+one-way cost,TQQQ,50 bp,real,hold,0.432662,-0.816598,0.872404
+synthetic financing spread,TQQQ,s = 0,full,trend,0.146156,-0.901646,0.486412
+synthetic financing spread,TQQQ,s = 0,full,hold,-0.017173,-0.999765,0.354639
+synthetic financing spread,TQQQ,s = 75 bp (calibrated),full,trend,0.142762,-0.902278,0.480464
+synthetic financing spread,TQQQ,s = 75 bp (calibrated),full,hold,-0.022795,-0.999794,0.347495
+synthetic financing spread,TQQQ,s = 150 bp,full,trend,0.139378,-0.902905,0.474516
+synthetic financing spread,TQQQ,s = 150 bp,full,hold,-0.028385,-0.999820,0.340352

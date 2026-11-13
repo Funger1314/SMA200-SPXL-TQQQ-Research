@@ -1,0 +1,17 @@
+Ticker,Step,Strategy,CAGR,MaxDrawdown,Sharpe,NumOrders
+SPXL,"A. v1 conventions: price-only signal & ETF, 0% cash",SMA rule,0.221276,-0.528763,0.743999,53
+SPXL,"A. v1 conventions: price-only signal & ETF, 0% cash",3x hold,0.301215,-0.768561,0.774590,1
+SPXL,B. + total-return (dividend-adjusted) leveraged ETF,SMA rule,0.229260,-0.528518,0.762476,53
+SPXL,B. + total-return (dividend-adjusted) leveraged ETF,3x hold,0.311120,-0.768561,0.789463,1
+SPXL,C. + total-return signal ETF for SMA,SMA rule,0.218612,-0.534585,0.733045,53
+SPXL,C. + total-return signal ETF for SMA,3x hold,0.311120,-0.768561,0.789463,1
+SPXL,D. + prior-month T-bill on idle cash (= v3 baseline),SMA rule,0.222153,-0.534140,0.699531,53
+SPXL,D. + prior-month T-bill on idle cash (= v3 baseline),3x hold,0.311120,-0.768561,0.760222,1
+TQQQ,"A. v1 conventions: price-only signal & ETF, 0% cash",SMA rule,0.290865,-0.620871,0.784507,69
+TQQQ,"A. v1 conventions: price-only signal & ETF, 0% cash",3x hold,0.428600,-0.817545,0.892124,1
+TQQQ,B. + total-return (dividend-adjusted) leveraged ETF,SMA rule,0.294077,-0.620871,0.789880,69
+TQQQ,B. + total-return (dividend-adjusted) leveraged ETF,3x hold,0.433010,-0.816598,0.897190,1
+TQQQ,C. + total-return signal ETF for SMA,SMA rule,0.298800,-0.620871,0.796610,70
+TQQQ,C. + total-return signal ETF for SMA,3x hold,0.433010,-0.816598,0.897190,1
+TQQQ,D. + prior-month T-bill on idle cash (= v3 baseline),SMA rule,0.302388,-0.620871,0.770596,70
+TQQQ,D. + prior-month T-bill on idle cash (= v3 baseline),3x hold,0.433010,-0.816598,0.872789,1

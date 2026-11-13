@@ -1,0 +1,12 @@
+ETF,Rule,Decisions_unchanged_before_cut,All_fills_at_that_days_open,Orders
+SPXL,SMA rule,True,True,53
+SPXL,Vol target 30%,True,True,707
+SPXL,Matched weight (ex ante),True,True,198
+SPXL,1x SMA,True,True,53
+SPXL,3x hold,True,True,1
+TQQQ,SMA rule,True,True,70
+TQQQ,Vol target 30%,True,True,808
+TQQQ,Matched weight (ex ante),True,True,198
+TQQQ,1x SMA,True,True,70
+TQQQ,3x hold,True,True,1
+all,code inspection,True,True,0
